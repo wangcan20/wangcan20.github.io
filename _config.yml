@@ -325,3 +325,8 @@ defaults:
       comments: # true
       share: true
       related: true
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
