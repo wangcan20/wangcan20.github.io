@@ -14,9 +14,12 @@
     <div class="shell header-content">
       <a class="site-title" href="/">Can Wang</a>
       <nav class="nav">
-        <a href="#about">Home</a>
-        <a href="#interests">Research Interests</a>
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#education">Education</a>
         <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching &amp; Service</a>
       </nav>
     </div>
   </header>
@@ -35,6 +38,8 @@
       <p class="contact-block">
         <strong>Links</strong><br>
         <a href="https://scholar.google.com/citations?user=g6cGd0IAAAAJ&hl=en&oi=sra" target="_blank" rel="noreferrer">Google Scholar</a>
+        <br>
+        <a href="https://github.com/wangcan20" target="_blank" rel="noreferrer">GitHub</a>
       </p>
     </aside>
 
@@ -44,17 +49,19 @@
         <p>
           I am a master student in Biostatistics at Johns Hopkins University. I am currently working with
           Dr. <a href="https://publichealth.jhu.edu/faculty/733/mei-cheng-wang" target="_blank" rel="noreferrer">Mei-Cheng Wang</a>
-          and Dr. <a href="https://yiqunchen.github.io/" target="_blank" rel="noreferrer">Yiqun Chen</a>. My work focuses on distribution-free inference, AI for statistics and risk prediction.
+          and Dr. <a href="https://yiqunchen.github.io/" target="_blank" rel="noreferrer">Yiqun Chen</a>. 
         </p>
+        <p>My work focuses broadly on distribution-free inference, AI-for-Statistics, survival analysis and causal inference.
+        My recent projects include conformal methods for competing-risk survival, autonomous LLM agents for causal estimation, and the MEDAL dataset for evidence-based clinical QA.</p>
       </section>
 
       <section id="interests" class="section">
         <h2>Research Interests</h2>
         <ul>
-          <li>Distribution-free inference; Uncertainty quantification</li>
-          <li>AI for Statistics; Medical AI</li>
-          <li>Survival analysis; Risk Prediction</li>
-          <li>Causal inference</li>
+          <li><strong>Distribution-free inference</strong>: conformal prediction; robustness under weak assumptions</li>
+          <li><strong>AI for Statistics; Medical AI</strong>: autonomous statistical agents; trustworthy medical AI</li>
+          <li><strong>Survival analysis</strong>: competing risk models; time-to-event prediction</li>
+          <li><strong>Causal inference</strong>: automated causal estimation; evaluation</li>
         </ul>
       </section>
 
@@ -70,19 +77,54 @@
         <h2>Publications & Preprints</h2>
         <ul class="pub-list">
           <li>
-            <strong>Wang, C.</strong>, &amp; Chen, Y. (2025). Evaluating Large Language Models for Evidence-Based Clinical Question Answering.
-            <em>arXiv:2509.10843</em>.
-            <a href="https://doi.org/10.48550/arXiv.2509.10843" target="_blank" rel="noreferrer">link</a>
+            <strong>Wang, C.</strong>, &amp; Chen, Y. (2025). Evaluating Large Language Models for Evidence-Based Clinical Question Answering. (Under revision)
+            <a href="https://doi.org/10.48550/arXiv.2509.10843" target="_blank" rel="noreferrer">arXiv</a> | 
+            <a href="https://github.com/yiqunchen/MEDAL" target="_blank" rel="noreferrer">Code</a> | 
+            <a href="https://huggingface.co/datasets/cwang271/MEDAL" target="_blank" rel="noreferrer">Dataset</a> | 
+            <a href="poster-LLM-QA.pdf" target="_blank" rel="noreferrer">Poster</a>
           </li>
         </ul>
       </section>
 
-      <section id="manuscripts" class="section">
-        <h2>Manuscripts & Working Papers</h2>
-        <ul>
-          <li>A Two-stage Conformal Predictive Interval for Competing-Risk Survival Data</li>
-          <li>Autonomous LLM Agents for Causal Inference</li>
-        </ul>
+      <section id="projects" class="section">
+        <h2>Research Projects</h2>
+
+        <div class="project">
+          <h3>Autonomous LLM Agents for Causal Inference</h3>
+          <p>We build an autonomous LLM-based coding agent that generates and refines causal estimators through iterative self-improvement, achieving performance comparable to expert-designed methods. (Preprint upcoming)</p>
+        </div>
+
+        <div class="project">
+          <h3>Two-stage Conformal Predictive Interval for Competing-Risk Survival (Thesis)</h3>
+          <p>We develop a two-stage conformal method for competing-risk survival data, providing model-free support for cause prediction and calibrated intervals under censoring. (Manuscript in preparation)</p>
+        </div>
+
+        
+      </section>
+
+      <section id="teaching" class="section">
+        <h2>Teaching &amp; Service</h2>
+        <div class="teaching-group">
+          <h3>Teaching</h3>
+          <ul>
+            <li>TA: Public Health Biostatistics (FA25) — weekly discussions; grading</li>
+          </ul>
+        </div>
+
+        <div class="teaching-group">
+          <h3>Reviewing</h3>
+          <ul>
+            <li>ML4H 2025</li>
+            <li>AAAI AI4Research Workshop 2026</li>
+          </ul>
+        </div>
+
+        <div class="teaching-group">
+          <h3>Presentations</h3>
+          <ul>
+            <li>Poster at ML4H 2025, JHU DSAI Symposium, JHU Engineering in Healthcare Symposium</li>
+          </ul>
+        </div>
       </section>
     </div>
   </main>
